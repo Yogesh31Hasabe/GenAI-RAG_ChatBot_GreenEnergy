@@ -13,7 +13,7 @@ def initialize():
 
 st.session_state.chat=initialize()
 
-st.title("Yogesh's RAG AIChatBot")
+st.title("Yogesh's GenAI-RAG ChatBot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
